@@ -15,7 +15,7 @@ hooks:
         cmd:
           - mkdir -p plugins
           - git clone https://github.com/discourse/docker_manager.git
-          - git clone https://github.com/botoggle/always-mobile-timeline-discourse.git
+          - git clone https://github.com/botoggle/always-mobile-timeline.git
 ```
 * Rebuild the container.
 ```bash
