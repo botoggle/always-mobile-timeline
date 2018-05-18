@@ -13,7 +13,6 @@ export default {
     */
     tn.reopen({
       _performCheckSize() {
-        console.log("in overridden topic-navigation");
         if (!this.element || this.isDestroying || this.isDestroyed) { return; }
 
         let info = this.get('info');
